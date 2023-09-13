@@ -1,6 +1,6 @@
 ﻿@page "/bands/{Id?}"
 
-<h3>Bands Detail</h3>
+<h3>@Title</h3>
 
 <img src="images/@Id" />
 <br />
@@ -10,5 +10,14 @@
 
 @code {
     [Parameter]
-    public string? Id { get; set; }
+    public string Id { get; set; } = "error";
+    public string? Title { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        int index = Id.LastIndexOf(".");
+        Title = Id.Substring(0, index);
+    }
+
 }
