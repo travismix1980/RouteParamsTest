@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteParamsTest", "RouteParamsTest.csproj", "{BEF28C78-E0D9-42FD-AB87-D11847C58D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF28C78-E0D9-42FD-AB87-D11847C58D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF28C78-E0D9-42FD-AB87-D11847C58D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF28C78-E0D9-42FD-AB87-D11847C58D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF28C78-E0D9-42FD-AB87-D11847C58D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C3D7FA0-0C9B-4E06-8ED8-DF4373E6A906}
+	EndGlobalSection
+EndGlobal

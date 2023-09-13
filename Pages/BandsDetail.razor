@@ -1,0 +1,14 @@
+﻿@page "/bands/{Id?}"
+
+<h3>Bands Detail</h3>
+
+<img src="images/@Id" />
+<br />
+<br />
+<a href="/bands"><input type="button" class="btn btn-outline-primary" value="Go Back" /></a>
+
+
+@code {
+    [Parameter]
+    public string? Id { get; set; }
+}

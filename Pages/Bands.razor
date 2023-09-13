@@ -1,0 +1,19 @@
+﻿@page "/bands" 
+
+<h3>Bands</h3>
+
+@foreach(string band in bandsList)
+{
+    
+    int index = band.LastIndexOf(".");
+    string bandURI = band.Substring(0, index);
+
+    <a href="/bands/@band" alt="@band"><img src="images/@band" /></a>
+    <br />
+    <br />
+    <br />
+}
+
+@code {
+    List<string> bandsList = new() { "goingunder.png", "nirvana.jpg", "miw.jpg", "slipknot.jpg", "infectedrain.jpg" };
+}
